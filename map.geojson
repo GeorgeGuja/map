@@ -1,3 +1,7 @@
+var popupContent =  '<a target="_blank" class="popup" href="' + feature.properties.url + '">' +
+                            '<img src="' + feature.properties.image + '" />'
+                        '</a>';
+
 {
   "type": "FeatureCollection",
   "features": [
