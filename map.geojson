@@ -2292,7 +2292,7 @@
         "LOCNAME_FR": "Lac Ontario 3 - Port de Hamilton",
         "GUIDELOC_E": "harbour area",
         "GUIDELOC_F": "région du port",
-		"popupContent": "This is where the Rockies play!"
+		 "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Chicago_sunrise_1.jpg/640px-Chicago_sunrise_1.jpg"
       },
       "geometry": {
         "type": "Point",
