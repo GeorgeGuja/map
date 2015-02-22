@@ -1,5 +1,3 @@
-
-
 {
   "type": "FeatureCollection",
   "features": [
@@ -2293,7 +2291,7 @@
         "LOCNAME_EN": "Lake Ontario 3 - Hamilton Harbour",
         "LOCNAME_FR": "Lac Ontario 3 - Port de Hamilton",
         "GUIDELOC_E": "harbour area",
-        "GUIDELOC_F": "région du port",
+        "GUIDELOC_F": "région du port"
       },
       "geometry": {
         "type": "Point",
