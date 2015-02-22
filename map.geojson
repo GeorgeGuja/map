@@ -1,19 +1,4 @@
-myLayer.on('layeradd', function(e) {
-    var marker = e.layer,
-        feature = marker.feature;
 
-    // Create custom popup content
-    var popupContent =  '<a target="_blank" class="popup" href="' + feature.properties.url + '">' +
-                            '<img src="' + feature.properties.image + '" />' +
-                            feature.properties.city +
-                        '</a>';
-
-    // http://leafletjs.com/reference.html#popup
-    marker.bindPopup(popupContent,{
-        closeButton: false,
-        minWidth: 320
-    });
-});
 
 {
   "type": "FeatureCollection",
@@ -2309,10 +2294,6 @@ myLayer.on('layeradd', function(e) {
         "LOCNAME_FR": "Lac Ontario 3 - Port de Hamilton",
         "GUIDELOC_E": "harbour area",
         "GUIDELOC_F": "région du port",
-		   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/NYC_Top_of_the_Rock_Pano.jpg/640px-NYC_Top_of_the_Rock_Pano.jpg",
-        "url": "https://en.wikipedia.org/wiki/New_York_City",
-        "marker-color": "#ff8888",
-        "city": "New York City"
       },
       "geometry": {
         "type": "Point",
