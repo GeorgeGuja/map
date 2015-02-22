@@ -2292,6 +2292,7 @@
         "LOCNAME_FR": "Lac Ontario 3 - Port de Hamilton",
         "GUIDELOC_E": "harbour area",
         "GUIDELOC_F": "région du port"
+		"popupContent": "This is where the Rockies play!"
       },
       "geometry": {
         "type": "Point",
